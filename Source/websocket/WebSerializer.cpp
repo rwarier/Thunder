@@ -1670,6 +1670,9 @@ namespace Web
             _state = VERB;
             break;
         }
+        case CHUNK_INIT: {
+            break;
+        }
         default: {
             ASSERT(false);
         }
